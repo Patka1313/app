@@ -4,11 +4,15 @@ import { HomePageModule } from './pages/home.page-module';
 
 const routes: Routes = [{ 
         path: 'homepage', 
-        loadChildren: () => HomePageModule
-      }];
+        loadChildren: () => HomePageModule,
+        pathMatch: 'full'
+      },
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [HomePageModule, 
+    RouterModule.forRoot(routes)
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
