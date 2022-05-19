@@ -25,6 +25,10 @@
       "@title": [
         "projects/title/src/index.ts"
       ],
+      "date": [
+        "dist/date/date",
+        "dist/date"
+      ],
       "head": [
         "dist/head/head",
         "dist/head"

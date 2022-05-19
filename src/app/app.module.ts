@@ -12,7 +12,8 @@ import { HomePageModule } from './pages/home.page-module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomePageModule
+    HomePageModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
   ],
   providers: [],
   bootstrap: [AppComponent]
