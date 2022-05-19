@@ -1,10 +1,91 @@
 /* You can add global styles to this file, and also import other style files */
 
 .title {
-    font-family: Inter;
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 23px;
     line-height: 28px;
+    color: #FFFFFF;
     background-color: #7749F8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 166px;
+    gap: 16px;
+}
+
+.day {
+    font-family: 'Arial';
+    font-style: normal;
+    color: #152536;
+    padding: 16px 166px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    width: 137px;
+    height: 48px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.date {
+    font-family: 'Arial';
+    position: absolute;
+    width: 91px;
+    height: 22px;
+    left: 322px;
+    top: 105px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    position: absolute;
+    width: 1110px;
+    height: 0px;
+    border: 1px solid #CED4DA;
+    flex: none;
+    order: 1;
+    align-self: flex-end;
+    flex-grow: 0;
+}
+
+.get {
+    position: absolute;
+    width: 642px;
+    height: 48px;
+    left: 399px;
+    top: 312px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #152536; 
+}
+
+.tasks {
+    position: absolute;
+    width: 505px;
+    height: 72px;
+    left: 467px;
+    top: 374px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #152536;
 }
